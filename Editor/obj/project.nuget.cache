@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "IiF9/DuMGX8=",
+  "success": true,
+  "projectFilePath": "C:\\MyGame\\Pong\\Editor\\pong.editor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vegas\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.20\\microsoft.windowsdesktop.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\vegas\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.20\\microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "C:\\Users\\vegas\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.20\\microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,136 @@
+{
+  "RootObject": {
+    "__guid": "529d7b6a-cd96-4fe7-8041-16a57c39e05d",
+    "Flags": 0,
+    "Name": "UI",
+    "Enabled": true,
+    "Children": [
+      {
+        "__guid": "a9742274-1a6a-47b2-96c4-82acb6c0d714",
+        "Flags": 0,
+        "Name": "scorebar",
+        "Position": "-183.2647,161.772,-1",
+        "Scale": "0.8,0.8,1",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "SpriteTools.SpriteComponent",
+            "__guid": "2b3697e3-8d74-4c89-bdf8-95e795494706",
+            "__version": 1,
+            "BroadcastEvents": {},
+            "CastShadows": "On",
+            "CreateAttachPoints": false,
+            "FlashTint": "1,1,1,0",
+            "PlaybackSpeed": 1,
+            "Sprite": "ui/scorebar.sprite",
+            "SpriteFlags": "None",
+            "StartingAnimationName": "animation_01",
+            "Tint": "1,1,1,1",
+            "UpDirection": "YPositive",
+            "UsePixelScale": true
+          }
+        ]
+      },
+      {
+        "__guid": "662072f4-d743-46f9-9f33-ed5a0fac6843",
+        "Flags": 0,
+        "Name": "flipscorebar",
+        "Position": "182.4485,162.5882,-1",
+        "Scale": "0.8,0.8,1",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "SpriteTools.SpriteComponent",
+            "__guid": "a8efbe7f-bcb8-494a-9f12-ab51b00a9b32",
+            "__version": 1,
+            "BroadcastEvents": {},
+            "CastShadows": "On",
+            "CreateAttachPoints": false,
+            "FlashTint": "1,1,1,0",
+            "PlaybackSpeed": 1,
+            "Sprite": "ui/flipscorebar.sprite",
+            "SpriteFlags": "None",
+            "StartingAnimationName": "animation_01",
+            "Tint": "1,1,1,1",
+            "UpDirection": "YPositive",
+            "UsePixelScale": true
+          }
+        ]
+      },
+      {
+        "__guid": "1f5e562c-be4e-4acd-a4eb-1d0c0614f727",
+        "Flags": 0,
+        "Name": "GameManager",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.ScreenPanel",
+            "__guid": "b7c3cc0c-98fb-45e0-b990-ea7a1bd0c619",
+            "AutoScreenScale": true,
+            "Opacity": 1,
+            "Scale": 1,
+            "ScaleStrategy": "ConsistentHeight",
+            "ZIndex": 100
+          },
+          {
+            "__type": "Sandbox.GameManager",
+            "__guid": "9d02d673-d6e3-4212-b648-c8c272cb6230",
+            "lboard": {
+              "_type": "component",
+              "component_id": "8c903285-fde9-4b3b-9d1b-6d0597ad7231",
+              "go": "663a7612-44b8-440e-b3a3-d1543dcae923",
+              "component_type": "BoardGoal"
+            },
+            "rboard": {
+              "_type": "component",
+              "component_id": "0fa03ac8-b0c9-47ed-99b5-24c7d7cf3dd3",
+              "go": "be104f23-f589-4d84-aeec-935c470faf6a",
+              "component_type": "BoardGoal"
+            }
+          }
+        ]
+      },
+      {
+        "__guid": "10e6bd6d-4ef0-4dd5-861c-68275bfc9ad1",
+        "Flags": 0,
+        "Name": "Music",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.SoundBoxComponent",
+            "__guid": "fe93d34f-a473-4a6e-9fad-303993862595",
+            "DistanceAttenuation": false,
+            "DistanceAttenuationOverride": true,
+            "Force2d": false,
+            "MaxRepeatTime": 5,
+            "MinRepeatTime": 1,
+            "Occlusion": false,
+            "OcclusionOverride": false,
+            "OcclusionRadius": 32,
+            "Pitch": 1,
+            "PlayOnStart": true,
+            "ReflectionOverride": false,
+            "Reflections": false,
+            "Repeat": true,
+            "Scale": "50,50,50",
+            "SoundEvent": "sound/101 classical music masterpieces - beethoven ode to joy [audiovk.com].sound",
+            "SoundOverride": false,
+            "StopOnNew": false,
+            "TargetMixer": {
+              "Name": "music",
+              "Id": "6df981b7-3a63-4627-aae5-753c2228633f"
+            },
+            "Volume": 1
+          }
+        ]
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

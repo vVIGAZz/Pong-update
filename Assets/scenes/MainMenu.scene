@@ -1,0 +1,91 @@
+{
+  "__guid": "241dfb6f-0705-4a85-8c74-9964f0b890f4",
+  "GameObjects": [
+    {
+      "__guid": "7f2f6c6f-3695-41d0-81a8-3b0e8d3d3161",
+      "Flags": 0,
+      "Name": "Screen",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "0227744d-5c56-4f00-9fcd-3f4b89abfa8f",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ScaleStrategy": "ConsistentHeight",
+          "ZIndex": 100
+        },
+        {
+          "__type": "Sandbox.MainMenu",
+          "__guid": "63e25666-434a-4448-979f-f061595bd426",
+          "soloGame": "scenes/sologame.scene"
+        }
+      ]
+    },
+    {
+      "__guid": "11401573-faf5-46b6-b9c2-cee1e5b5b3dc",
+      "Flags": 0,
+      "Name": "Music",
+      "Position": "-59.60089,-6.462434,-286.5276",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.SoundBoxComponent",
+          "__guid": "f04b0136-8f1b-4687-8a15-e0eeac8b9414",
+          "DistanceAttenuation": false,
+          "DistanceAttenuationOverride": true,
+          "Force2d": false,
+          "MaxRepeatTime": 1,
+          "MinRepeatTime": 1,
+          "Occlusion": true,
+          "OcclusionOverride": false,
+          "OcclusionRadius": 32,
+          "Pitch": 1,
+          "PlayOnStart": true,
+          "ReflectionOverride": false,
+          "Reflections": false,
+          "Repeat": false,
+          "Scale": "50,50,50",
+          "SoundEvent": "sound/music/menu1.sound",
+          "SoundOverride": true,
+          "StopOnNew": false,
+          "TargetMixer": {
+            "Name": "unknown",
+            "Id": "00000000-0000-0000-0000-000000000000"
+          },
+          "Volume": 1
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "PhysicsSubSteps": 1,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "mainmenu",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [
+    "curtainstudio.menu1#74189"
+  ],
+  "__version": 1
+}

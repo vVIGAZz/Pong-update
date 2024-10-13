@@ -1,0 +1,124 @@
+{
+  "RootObject": {
+    "__guid": "17df1b06-0957-43c4-b064-e11dcac3b982",
+    "Flags": 0,
+    "Name": "board",
+    "Position": "0,0,-1",
+    "Scale": "0.8,0.8,1",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SpriteTools.SpriteComponent",
+        "__guid": "4278db42-8466-4eca-b55c-4d5844836371",
+        "__version": 1,
+        "BroadcastEvents": {},
+        "CastShadows": "On",
+        "CreateAttachPoints": false,
+        "FlashTint": "1,1,1,0",
+        "PlaybackSpeed": 1,
+        "Sprite": "sprites/board.sprite",
+        "SpriteFlags": "None",
+        "StartingAnimationName": "animation_01",
+        "Tint": "1,1,1,1",
+        "UpDirection": "YPositive",
+        "UsePixelScale": true
+      }
+    ],
+    "Children": [
+      {
+        "__guid": "df1b768f-0498-4b17-89ce-e5b0c2cd0d86",
+        "Flags": 0,
+        "Name": "upBoard",
+        "Position": "0,178.9704,1",
+        "Scale": "1,1,40.40002",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.PlaneCollider",
+            "__guid": "9f4ebd57-94b1-424e-b10c-44b39834c2bf",
+            "Center": "0,0,0",
+            "IsTrigger": false,
+            "Scale": "800,5",
+            "Static": true
+          }
+        ]
+      },
+      {
+        "__guid": "7b28a9c2-6083-4376-8239-62698238b4f3",
+        "Flags": 0,
+        "Name": "downBoard",
+        "Position": "0,-221.2131,1",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.PlaneCollider",
+            "__guid": "cbaa8135-47e1-4976-96ee-61dc4ce70860",
+            "Center": "0,0,0",
+            "IsTrigger": false,
+            "Scale": "800,5",
+            "Static": true
+          }
+        ]
+      },
+      {
+        "__guid": "663a7612-44b8-440e-b3a3-d1543dcae923",
+        "Flags": 0,
+        "Name": "leftBoard",
+        "Position": "-400,0,1",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.BoxCollider",
+            "__guid": "fb9f0bb4-b3ae-4e0c-a74d-697c7d94906d",
+            "Center": "0,0,0",
+            "IsTrigger": true,
+            "Scale": "5,450,5",
+            "Static": false
+          },
+          {
+            "__type": "BoardGoal",
+            "__guid": "8c903285-fde9-4b3b-9d1b-6d0597ad7231",
+            "ball": {
+              "_type": "gameobject",
+              "go": "1d990959-8250-4737-9618-bd5963c1a922"
+            },
+            "sideBoard": false
+          }
+        ]
+      },
+      {
+        "__guid": "be104f23-f589-4d84-aeec-935c470faf6a",
+        "Flags": 0,
+        "Name": "rightBoard",
+        "Position": "400,0,1",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "Sandbox.BoxCollider",
+            "__guid": "811567d4-8d8e-4739-a57e-a7ec544b7337",
+            "Center": "0,0,0",
+            "IsTrigger": true,
+            "Scale": "5,450,5",
+            "Static": false
+          },
+          {
+            "__type": "BoardGoal",
+            "__guid": "0fa03ac8-b0c9-47ed-99b5-24c7d7cf3dd3",
+            "ball": {
+              "_type": "gameobject",
+              "go": "1d990959-8250-4737-9618-bd5963c1a922"
+            },
+            "sideBoard": true
+          }
+        ]
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

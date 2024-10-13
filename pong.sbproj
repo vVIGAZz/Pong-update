@@ -1,0 +1,31 @@
+{
+  "Title": "Pong",
+  "Type": "game",
+  "Org": "baldpig",
+  "Ident": "pong",
+  "Schema": 1,
+  "IncludeSourceFiles": true,
+  "Resources": "ui/scorebarflip.png\nui/ScoreBar.png\nsprites/Player.png\nsprites/Computer.png\nsprites/Board.png\nsprites/Ball.png",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "IsWhitelistDisabled": false,
+  "Metadata": {
+    "MaxPlayers": 1,
+    "MinPlayers": 1,
+    "TickRate": 50,
+    "GameNetworkType": "Multiplayer",
+    "MapSelect": "Unrestricted",
+    "MapList": [
+      "facepunch.flatgrass"
+    ],
+    "RankType": "None",
+    "PerMapRanking": false,
+    "LeaderboardType": "None",
+    "CsProjName": "",
+    "StartupScene": "scenes/mainmenu.scene",
+    "MapStartupScene": "scenes/mainmenu.scene",
+    "LaunchMode": "Normal",
+    "ParentPackage": "",
+    "ControlModes": {}
+  }
+}

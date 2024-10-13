@@ -1,0 +1,18 @@
+{
+  "Animations": [
+    {
+      "FrameRate": 15,
+      "Origin": "0.5,0.5",
+      "Name": "animation_01",
+      "Frames": [
+        {
+          "FilePath": "sprites/board.png",
+          "Events": []
+        }
+      ],
+      "Attachments": []
+    }
+  ],
+  "__references": [],
+  "__version": 0
+}

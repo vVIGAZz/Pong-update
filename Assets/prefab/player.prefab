@@ -1,0 +1,73 @@
+{
+  "RootObject": {
+    "__guid": "86a2a71d-7147-47ed-9b45-23d9a7de6fdb",
+    "Flags": 0,
+    "Name": "player",
+    "Position": "-275,0,0",
+    "Scale": "0.5,0.5,1",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SpriteTools.SpriteComponent",
+        "__guid": "c951576c-b841-47e7-8c87-2b1a2de3912c",
+        "__version": 1,
+        "BroadcastEvents": {},
+        "CastShadows": "On",
+        "CreateAttachPoints": false,
+        "FlashTint": "1,1,1,0",
+        "PlaybackSpeed": 1,
+        "Sprite": "sprites/player.sprite",
+        "SpriteFlags": "None",
+        "StartingAnimationName": "animation_01",
+        "Tint": "1,1,1,1",
+        "UpDirection": "YPositive",
+        "UsePixelScale": false
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "29ff3257-c64b-48f7-8036-89df1d2f2481",
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {
+          "X": true,
+          "Z": true,
+          "Pitch": true,
+          "Yaw": true,
+          "Roll": true
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MotionEnabled": true,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "eaf7c0c3-833b-479c-b1c5-abb20ce97d40",
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Scale": "15,100,5",
+        "Static": false
+      },
+      {
+        "__type": "PlayerController",
+        "__guid": "f7b1ab3b-e21d-460a-8f16-1f8aad511bb9",
+        "body": {
+          "_type": "component",
+          "component_id": "29ff3257-c64b-48f7-8036-89df1d2f2481",
+          "go": "86a2a71d-7147-47ed-9b45-23d9a7de6fdb",
+          "component_type": "Rigidbody"
+        }
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [],
+  "__version": 1
+}

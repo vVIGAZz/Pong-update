@@ -1,0 +1,19 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="title" onclick="@solo">PONG</div>
+</root>
+
+@code
+{
+	[Property] public SceneFile soloGame;
+
+	void solo()
+	{
+		Scene.Load(soloGame);
+	}
+
+}

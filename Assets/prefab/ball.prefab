@@ -1,0 +1,74 @@
+{
+  "RootObject": {
+    "__guid": "1d990959-8250-4737-9618-bd5963c1a922",
+    "Flags": 0,
+    "Name": "ball",
+    "Scale": "0.5,0.5,1",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SpriteTools.SpriteComponent",
+        "__guid": "ef260f66-a551-4e33-9d0e-94b24df8c36f",
+        "__version": 1,
+        "BroadcastEvents": {},
+        "CastShadows": "On",
+        "CreateAttachPoints": false,
+        "FlashTint": "1,1,1,0",
+        "PlaybackSpeed": 1,
+        "Sprite": "sprites/ball.sprite",
+        "SpriteFlags": "None",
+        "StartingAnimationName": "animation_01",
+        "Tint": "1,1,1,1",
+        "UpDirection": "YPositive",
+        "UsePixelScale": true
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "32d0949a-ecbd-45df-b6a1-cb6c7d563ddb",
+        "AngularDamping": 0,
+        "Gravity": false,
+        "LinearDamping": 0,
+        "Locking": {
+          "Z": true,
+          "Pitch": true,
+          "Yaw": true,
+          "Roll": true
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MotionEnabled": true,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "840df8b3-1464-4a2f-89ea-b399b13be127",
+        "Center": "0,0,0",
+        "IsTrigger": false,
+        "Scale": "32,32,32",
+        "Static": false
+      },
+      {
+        "__type": "BallMovement",
+        "__guid": "b8cf57ec-bb1d-4191-8d21-5d927d4fd787",
+        "rb": {
+          "_type": "component",
+          "component_id": "32d0949a-ecbd-45df-b6a1-cb6c7d563ddb",
+          "go": "1d990959-8250-4737-9618-bd5963c1a922",
+          "component_type": "Rigidbody"
+        },
+        "sfx": "sound/click1.sound"
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "ResourceVersion": 1,
+  "__references": [
+    "igrotronika.click1#51268"
+  ],
+  "__version": 1
+}

@@ -1,0 +1,521 @@
+{
+  "__guid": "5e32bf18-d229-4824-8e4d-111337115d27",
+  "GameObjects": [
+    {
+      "__guid": "17df1b06-0957-43c4-b064-e11dcac3b982",
+      "Flags": 0,
+      "Name": "board",
+      "Position": "0,0,-1",
+      "Scale": "0.8,0.8,1",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "4278db42-8466-4eca-b55c-4d5844836371",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "sprites/board.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "animation_01",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": true
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "df1b768f-0498-4b17-89ce-e5b0c2cd0d86",
+          "Flags": 0,
+          "Name": "upBoard",
+          "Position": "0,178.9704,1",
+          "Scale": "1,1,40.40002",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PlaneCollider",
+              "__guid": "9f4ebd57-94b1-424e-b10c-44b39834c2bf",
+              "Center": "0,0,0",
+              "IsTrigger": false,
+              "Scale": "800,5",
+              "Static": true
+            }
+          ]
+        },
+        {
+          "__guid": "7b28a9c2-6083-4376-8239-62698238b4f3",
+          "Flags": 0,
+          "Name": "downBoard",
+          "Position": "0,-221.2131,1",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.PlaneCollider",
+              "__guid": "cbaa8135-47e1-4976-96ee-61dc4ce70860",
+              "Center": "0,0,0",
+              "IsTrigger": false,
+              "Scale": "800,5",
+              "Static": true
+            }
+          ]
+        },
+        {
+          "__guid": "663a7612-44b8-440e-b3a3-d1543dcae923",
+          "Flags": 0,
+          "Name": "leftBoard",
+          "Position": "-400,0,1",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "fb9f0bb4-b3ae-4e0c-a74d-697c7d94906d",
+              "Center": "0,0,0",
+              "IsTrigger": true,
+              "Scale": "5,450,5",
+              "Static": false
+            },
+            {
+              "__type": "BoardGoal",
+              "__guid": "8c903285-fde9-4b3b-9d1b-6d0597ad7231",
+              "ball": {
+                "_type": "gameobject",
+                "go": "1d990959-8250-4737-9618-bd5963c1a922"
+              },
+              "sideBoard": false
+            }
+          ]
+        },
+        {
+          "__guid": "be104f23-f589-4d84-aeec-935c470faf6a",
+          "Flags": 0,
+          "Name": "rightBoard",
+          "Position": "400,0,1",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.BoxCollider",
+              "__guid": "811567d4-8d8e-4739-a57e-a7ec544b7337",
+              "Center": "0,0,0",
+              "IsTrigger": true,
+              "Scale": "5,450,5",
+              "Static": false
+            },
+            {
+              "__type": "BoardGoal",
+              "__guid": "0fa03ac8-b0c9-47ed-99b5-24c7d7cf3dd3",
+              "ball": {
+                "_type": "gameobject",
+                "go": "1d990959-8250-4737-9618-bd5963c1a922"
+              },
+              "sideBoard": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "__guid": "ecc275bb-1067-4c56-9e22-74a455365a44",
+      "Flags": 0,
+      "Name": "Sun",
+      "Position": "0,0,200",
+      "Rotation": "0,0.7071068,0,0.7071068",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "b1afc45b-b3d9-4b6d-b525-ff6076b2131a",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": false,
+          "SkyColor": "0,0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "1d990959-8250-4737-9618-bd5963c1a922",
+      "Flags": 0,
+      "Name": "ball",
+      "Scale": "0.5,0.5,1",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "ef260f66-a551-4e33-9d0e-94b24df8c36f",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "sprites/ball.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "animation_01",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": true
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "32d0949a-ecbd-45df-b6a1-cb6c7d563ddb",
+          "AngularDamping": 0,
+          "Gravity": false,
+          "LinearDamping": 0,
+          "Locking": {
+            "Z": true,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "840df8b3-1464-4a2f-89ea-b399b13be127",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "32,32,32",
+          "Static": false
+        },
+        {
+          "__type": "BallMovement",
+          "__guid": "b8cf57ec-bb1d-4191-8d21-5d927d4fd787",
+          "rb": {
+            "_type": "component",
+            "component_id": "32d0949a-ecbd-45df-b6a1-cb6c7d563ddb",
+            "go": "1d990959-8250-4737-9618-bd5963c1a922",
+            "component_type": "Rigidbody"
+          },
+          "sfx": "sound/click1.sound"
+        }
+      ]
+    },
+    {
+      "__guid": "8ee3d31b-7614-4728-a12d-8747c1fa8b48",
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "2.946671,0,500",
+      "Rotation": "-0.5,0.5,0.5,0.5",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "993773eb-49a4-481a-8f5e-20cf421312f8",
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "FieldOfView": 65.31,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ]
+    },
+    {
+      "__guid": "4537df50-9c66-43af-b0cf-5c968c44d84f",
+      "Flags": 0,
+      "Name": "enemy",
+      "Position": "275,0,0",
+      "Scale": "0.5,0.5,1",
+      "Enabled": true,
+      "NetworkMode": 0,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "0639998e-9408-4d82-be3a-36c2edffe7d0",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "sprites/enemy.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "animation_01",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "f673435a-cd0a-44d3-b4f9-838fe2fce20a",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "15,100,5",
+          "Static": false
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "4e9252dd-086b-4bdd-ade8-ece48e3ddde3",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": true,
+            "Z": true,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "EnemyMove",
+          "__guid": "8ed2420f-c0d0-42f7-8af4-3c405464163f",
+          "ball": {
+            "_type": "gameobject",
+            "go": "1d990959-8250-4737-9618-bd5963c1a922"
+          },
+          "rb": {
+            "_type": "component",
+            "component_id": "4e9252dd-086b-4bdd-ade8-ece48e3ddde3",
+            "go": "4537df50-9c66-43af-b0cf-5c968c44d84f",
+            "component_type": "Rigidbody"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "86a2a71d-7147-47ed-9b45-23d9a7de6fdb",
+      "Flags": 0,
+      "Name": "player",
+      "Position": "-275,0,0",
+      "Scale": "0.5,0.5,1",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SpriteTools.SpriteComponent",
+          "__guid": "c951576c-b841-47e7-8c87-2b1a2de3912c",
+          "__version": 1,
+          "BroadcastEvents": {},
+          "CastShadows": "On",
+          "CreateAttachPoints": false,
+          "FlashTint": "1,1,1,0",
+          "PlaybackSpeed": 1,
+          "Sprite": "sprites/player.sprite",
+          "SpriteFlags": "None",
+          "StartingAnimationName": "animation_01",
+          "Tint": "1,1,1,1",
+          "UpDirection": "YPositive",
+          "UsePixelScale": false
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "29ff3257-c64b-48f7-8036-89df1d2f2481",
+          "AngularDamping": 0,
+          "Gravity": true,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": true,
+            "Z": true,
+            "Pitch": true,
+            "Yaw": true,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MotionEnabled": true,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "eaf7c0c3-833b-479c-b1c5-abb20ce97d40",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "15,100,5",
+          "Static": false
+        },
+        {
+          "__type": "PlayerController",
+          "__guid": "f7b1ab3b-e21d-460a-8f16-1f8aad511bb9",
+          "body": {
+            "_type": "component",
+            "component_id": "29ff3257-c64b-48f7-8036-89df1d2f2481",
+            "go": "86a2a71d-7147-47ed-9b45-23d9a7de6fdb",
+            "component_type": "Rigidbody"
+          }
+        }
+      ]
+    },
+    {
+      "__guid": "529d7b6a-cd96-4fe7-8041-16a57c39e05d",
+      "Flags": 0,
+      "Name": "UI",
+      "Enabled": true,
+      "Children": [
+        {
+          "__guid": "a9742274-1a6a-47b2-96c4-82acb6c0d714",
+          "Flags": 0,
+          "Name": "scorebar",
+          "Position": "-183.2647,161.772,-1",
+          "Scale": "0.8,0.8,1",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "2b3697e3-8d74-4c89-bdf8-95e795494706",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "ui/scorebar.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "animation_01",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": true
+            }
+          ]
+        },
+        {
+          "__guid": "662072f4-d743-46f9-9f33-ed5a0fac6843",
+          "Flags": 0,
+          "Name": "flipscorebar",
+          "Position": "182.4485,162.5882,-1",
+          "Scale": "0.8,0.8,1",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "SpriteTools.SpriteComponent",
+              "__guid": "a8efbe7f-bcb8-494a-9f12-ab51b00a9b32",
+              "__version": 1,
+              "BroadcastEvents": {},
+              "CastShadows": "On",
+              "CreateAttachPoints": false,
+              "FlashTint": "1,1,1,0",
+              "PlaybackSpeed": 1,
+              "Sprite": "ui/flipscorebar.sprite",
+              "SpriteFlags": "None",
+              "StartingAnimationName": "animation_01",
+              "Tint": "1,1,1,1",
+              "UpDirection": "YPositive",
+              "UsePixelScale": true
+            }
+          ]
+        },
+        {
+          "__guid": "1f5e562c-be4e-4acd-a4eb-1d0c0614f727",
+          "Flags": 0,
+          "Name": "GameManager",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.ScreenPanel",
+              "__guid": "b7c3cc0c-98fb-45e0-b990-ea7a1bd0c619",
+              "AutoScreenScale": true,
+              "Opacity": 1,
+              "Scale": 1,
+              "ScaleStrategy": "ConsistentHeight",
+              "ZIndex": 100
+            },
+            {
+              "__type": "Sandbox.GameManager",
+              "__guid": "9d02d673-d6e3-4212-b648-c8c272cb6230",
+              "lboard": {
+                "_type": "component",
+                "component_id": "8c903285-fde9-4b3b-9d1b-6d0597ad7231",
+                "go": "663a7612-44b8-440e-b3a3-d1543dcae923",
+                "component_type": "BoardGoal"
+              },
+              "rboard": {
+                "_type": "component",
+                "component_id": "0fa03ac8-b0c9-47ed-99b5-24c7d7cf3dd3",
+                "go": "be104f23-f589-4d84-aeec-935c470faf6a",
+                "component_type": "BoardGoal"
+              }
+            }
+          ]
+        },
+        {
+          "__guid": "10e6bd6d-4ef0-4dd5-861c-68275bfc9ad1",
+          "Flags": 0,
+          "Name": "Music",
+          "Enabled": true,
+          "Components": [
+            {
+              "__type": "Sandbox.SoundBoxComponent",
+              "__guid": "fe93d34f-a473-4a6e-9fad-303993862595",
+              "DistanceAttenuation": false,
+              "DistanceAttenuationOverride": true,
+              "Force2d": false,
+              "MaxRepeatTime": 5,
+              "MinRepeatTime": 1,
+              "Occlusion": false,
+              "OcclusionOverride": false,
+              "OcclusionRadius": 32,
+              "Pitch": 1,
+              "PlayOnStart": true,
+              "ReflectionOverride": false,
+              "Reflections": false,
+              "Repeat": true,
+              "Scale": "50,50,50",
+              "SoundEvent": "sound/music/menu2.sound",
+              "SoundOverride": false,
+              "StopOnNew": false,
+              "TargetMixer": {
+                "Name": "music",
+                "Id": "6df981b7-3a63-4627-aae5-753c2228633f"
+              },
+              "Volume": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "PhysicsSubSteps": 1,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "sologame",
+  "Description": "",
+  "ResourceVersion": 1,
+  "__references": [
+    "curtainstudio.menu2#74192",
+    "igrotronika.click1#51268"
+  ],
+  "__version": 1
+}

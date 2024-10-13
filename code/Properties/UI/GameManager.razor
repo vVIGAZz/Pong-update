@@ -1,0 +1,20 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="p1">Score: @lboard.playerOne</div>
+	<div class="p2">Score: @rboard.playerTwo</div>
+</root>
+
+@code
+{
+	[Property] public BoardGoal lboard;
+	[Property] public BoardGoal rboard;
+
+	protected override int BuildHash()
+	{
+		return System.HashCode.Combine(lboard.playerOne, rboard.playerTwo);
+	}
+}
