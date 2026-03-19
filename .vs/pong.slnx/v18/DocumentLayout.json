@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\S\u0026box Project\\Pong-update\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\S\u0026box Project\\Pong-update\\code\\Properties\\Ball\\BallMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:code\\Properties\\Ball\\BallMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72840F76-D252-FE31-372B-34AF1DB008F1}|code\\pong.csproj|c:\\s\u0026box project\\pong-update\\code\\game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72840F76-D252-FE31-372B-34AF1DB008F1}|code\\pong.csproj|solutionrelative:code\\game\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72840F76-D252-FE31-372B-34AF1DB008F1}|code\\pong.csproj|c:\\s\u0026box project\\pong-update\\code\\game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72840F76-D252-FE31-372B-34AF1DB008F1}|code\\pong.csproj|solutionrelative:code\\game\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72840F76-D252-FE31-372B-34AF1DB008F1}|code\\pong.csproj|c:\\s\u0026box project\\pong-update\\code\\properties\\ai\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72840F76-D252-FE31-372B-34AF1DB008F1}|code\\pong.csproj|solutionrelative:code\\properties\\ai\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BallMovement.cs",
-              "DocumentMoniker": "C:\\S\u0026box Project\\Pong-update\\code\\Properties\\Ball\\BallMovement.cs",
-              "RelativeDocumentMoniker": "code\\Properties\\Ball\\BallMovement.cs",
-              "ToolTip": "C:\\S\u0026box Project\\Pong-update\\code\\Properties\\Ball\\BallMovement.cs",
-              "RelativeToolTip": "code\\Properties\\Ball\\BallMovement.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAQAAABmAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Pong-update\\code\\Game\\Player.cs",
+              "RelativeDocumentMoniker": "code\\Game\\Player.cs",
+              "ToolTip": "C:\\S\u0026box Project\\Pong-update\\code\\Game\\Player.cs",
+              "RelativeToolTip": "code\\Game\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T17:15:01.3Z",
+              "WhenOpened": "2026-03-19T21:19:36.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Pong-update\\code\\Game\\Enemy.cs",
+              "RelativeDocumentMoniker": "code\\Game\\Enemy.cs",
+              "ToolTip": "C:\\S\u0026box Project\\Pong-update\\code\\Game\\Enemy.cs",
+              "RelativeToolTip": "code\\Game\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T21:17:26.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EnemyMove.cs",
+              "DocumentMoniker": "C:\\S\u0026box Project\\Pong-update\\code\\Properties\\AI\\EnemyMove.cs",
+              "RelativeDocumentMoniker": "code\\Properties\\AI\\EnemyMove.cs",
+              "ToolTip": "C:\\S\u0026box Project\\Pong-update\\code\\Properties\\AI\\EnemyMove.cs",
+              "RelativeToolTip": "code\\Properties\\AI\\EnemyMove.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T21:17:17.277Z",
               "EditorCaption": ""
             }
           ]
