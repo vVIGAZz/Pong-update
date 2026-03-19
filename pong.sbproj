@@ -8,7 +8,8 @@
   "Resources": "ui/scorebarflip.png\nui/ScoreBar.png\nsprites/Player.png\nsprites/Computer.png\nsprites/Board.png\nsprites/Ball.png",
   "PackageReferences": [],
   "EditorReferences": null,
-  "IsWhitelistDisabled": false,
+  "Mounts": null,
+  "IsStandaloneOnly": false,
   "Metadata": {
     "MaxPlayers": 1,
     "MinPlayers": 1,

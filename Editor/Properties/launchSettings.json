@@ -1,9 +1,9 @@
 {
   "profiles": {
-    "pong.editor": {
+    "Editor": {
       "commandName": "Executable",
-      "executablePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\sbox\\sbox.exe",
-      "commandLineArgs": "\u002Bdeveloper 1 -w 1920 -h 1080 -noassert -tools"
+      "executablePath": "../../../../Program Files (x86)/Steam/steamapps/common/sbox/sbox-dev.exe",
+      "commandLineArgs": "-project \u0022C:\\S\u0026box Project\\Pong-update\\pong.sbproj\u0022"
     }
   }
 }
