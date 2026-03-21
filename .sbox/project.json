@@ -1,27 +1,27 @@
 {
   "LocalAssetBrowser.History": {
-    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022]",
-    "Timeout": 1776546076,
+    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\\\\Score Panel\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022]",
+    "Timeout": 1776688312,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.HistoryIdx": {
-    "Value": "4",
-    "Timeout": 1776546076,
+    "Value": "8",
+    "Timeout": 1776688312,
     "DeleteAt": 0
   },
   "Window.SboxSceneEditor.Dock": {
-    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAACfYAAAUpAAAAAAAAAAAAAAn2AAAFKQAAAAAAAAAACgAAAAAAAAAAAAAACfYAAAUp\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/sologame.scene\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022LibraryManagerDock\u0022,\u0022name\u0022:\u0022Library Manager\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAADpQAAAhYA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAGuwAAAdsA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABmwAACjQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
-    "Timeout": 1776547631,
+    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAACfYAAAUpAAAAAAAAAAAAAAn2AAAFKQAAAAAAAAAACgAAAAAAAAAAAAAACfYAAAUp\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/sologame.scene\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:1,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022LibraryManagerDock\u0022,\u0022name\u0022:\u0022Library Manager\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAADpQAAAhYA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAGuwAAAdsA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABmwAACjQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
+    "Timeout": 1776689139,
     "DeleteAt": 0
   },
   "SceneView.Viewport0.Settings": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-236.6814,-314.2878,784.9409\u0022,\u0022CameraRotation\u0022:\u0022-0.4094009,0.4211124,0.5641739,0.5803129\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1776547632,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-5.607473,-170.8701,571.579\u0022,\u0022CameraRotation\u0022:\u0022-0.4097835,0.3986093,0.5881305,0.5720931\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1776689138,
     "DeleteAt": 0
   },
   "scenes/sologame.scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-236.6814,-314.2878,784.9409\u0022,\u0022CameraRotation\u0022:\u0022-0.4094009,0.4211124,0.5641739,0.5803129\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1776547632,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-5.607473,-170.8701,571.579\u0022,\u0022CameraRotation\u0022:\u0022-0.4097835,0.3986093,0.5881305,0.5720931\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1776689138,
     "DeleteAt": 0
   },
   ".Viewport0": {
@@ -31,12 +31,12 @@
   },
   "SceneView.Layout": {
     "Value": "{\u0022Layout\u0022:0,\u0022SplitterState\u0022:[]}",
-    "Timeout": 1776547632,
+    "Timeout": 1776689139,
     "DeleteAt": 0
   },
   "expand.1d990959-8250-4737-9618-bd5963c1a922.Rigidbody": {
     "Value": "false",
-    "Timeout": 1776546041,
+    "Timeout": 1776689137,
     "DeleteAt": 0
   },
   "expand.86a2a71d-7147-47ed-9b45-23d9a7de6fdb.MissingComponent": {
@@ -44,69 +44,94 @@
     "Timeout": 1776546915,
     "DeleteAt": 0
   },
-  "expand.1d990959-8250-4737-9618-bd5963c1a922.Ball": {
-    "Value": "false",
-    "Timeout": 1776546052,
-    "DeleteAt": 0
-  },
   "LocalAssetBrowser.Model.History": {
-    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022]",
-    "Timeout": 1776531765,
+    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\u0022,\u0022C:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\dev\u0022,\u0022C:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\u0022,\u0022C:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\u0022,\u0022C:\\\\program files (x86)\\\\steam\\\\steamapps\\\\common\\\\sbox\\\\core\\\\models\\\\dev\u0022]",
+    "Timeout": 1776686895,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.HistoryIdx": {
-    "Value": "1",
-    "Timeout": 1776531765,
+    "Value": "5",
+    "Timeout": 1776686895,
     "DeleteAt": 0
   },
   "CloudBrowser.Model..ViewMode": {
     "Value": "3",
-    "Timeout": 1776531765,
+    "Timeout": 1776686885,
     "DeleteAt": 0
   },
   "CloudBrowser.Model..ShowJunkFiles": {
     "Value": "false",
-    "Timeout": 1776531765,
+    "Timeout": 1776686885,
     "DeleteAt": 0
   },
   "CloudBrowser.Model..HideNonAssets": {
     "Value": "false",
-    "Timeout": 1776531765,
+    "Timeout": 1776686885,
     "DeleteAt": 0
   },
   "CloudBrowser.Model..ShowRecursiveFiles": {
     "Value": "false",
-    "Timeout": 1776531765,
+    "Timeout": 1776686885,
     "DeleteAt": 0
   },
   "expand.4537df50-9c66-43af-b0cf-5c968c44d84f.Rigidbody": {
     "Value": "false",
-    "Timeout": 1776547629,
+    "Timeout": 1776687523,
     "DeleteAt": 0
   },
   "expand.1d990959-8250-4737-9618-bd5963c1a922.TrailRenderer": {
     "Value": "false",
-    "Timeout": 1776546041,
+    "Timeout": 1776688950,
     "DeleteAt": 0
   },
   "gizmo.settings": {
     "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:true,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:false,\u0022DebugActionGraphs\u0022:false,\u0022DisabledGizmos\u0022:{}}",
-    "Timeout": 1776543747,
+    "Timeout": 1776689139,
     "DeleteAt": 0
   },
   "expand.4537df50-9c66-43af-b0cf-5c968c44d84f.BoxCollider": {
     "Value": "false",
-    "Timeout": 1776547629,
+    "Timeout": 1776687523,
     "DeleteAt": 0
   },
   "expand.663a7612-44b8-440e-b3a3-d1543dcae923.BoxCollider": {
     "Value": "false",
-    "Timeout": 1776546068,
+    "Timeout": 1776688698,
     "DeleteAt": 0
   },
   "expand.1d990959-8250-4737-9618-bd5963c1a922.SphereCollider": {
     "Value": "false",
-    "Timeout": 1776546056,
+    "Timeout": 1776689137,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.ViewMode": {
+    "Value": "3",
+    "Timeout": 1776686895,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.ShowJunkFiles": {
+    "Value": "false",
+    "Timeout": 1776686895,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.HideNonAssets": {
+    "Value": "false",
+    "Timeout": 1776686895,
+    "DeleteAt": 0
+  },
+  "LocalAssetBrowser.Model.ShowRecursiveFiles": {
+    "Value": "false",
+    "Timeout": 1776686895,
+    "DeleteAt": 0
+  },
+  "expand.35b94876-959c-4e00-b95b-dd78c95eed57.ScreenPanel": {
+    "Value": "false",
+    "Timeout": 1776687742,
+    "DeleteAt": 0
+  },
+  "expand.be104f23-f589-4d84-aeec-935c470faf6a.BoxCollider": {
+    "Value": "false",
+    "Timeout": 1776688699,
     "DeleteAt": 0
   }
 }

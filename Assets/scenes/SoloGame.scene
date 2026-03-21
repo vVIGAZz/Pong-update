@@ -124,6 +124,126 @@
       "Children": []
     },
     {
+      "__guid": "f7df6573-c524-4042-ad6e-87e1db047eea",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Game Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "EventManager",
+          "__guid": "7c3f8cdf-1d23-4dcd-b347-c01a1ed4e4f7",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "dfcfd0af-b32c-4f64-8b2c-84a76a11c9c2",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "UI",
+      "Position": "-8.479631,-66.99696,290.1504",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "3993a3db-f580-46f9-8ffd-646c7d2f6999",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Score Panel",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [],
+          "Children": [
+            {
+              "__guid": "35b94876-959c-4e00-b95b-dd78c95eed57",
+              "__version": 2,
+              "Flags": 0,
+              "Name": "Score",
+              "Position": "0,0,0",
+              "Rotation": "0,0,0,1",
+              "Scale": "1,1,1",
+              "Tags": "",
+              "Enabled": true,
+              "NetworkMode": 2,
+              "NetworkFlags": 0,
+              "NetworkOrphaned": 0,
+              "NetworkTransmit": true,
+              "OwnerTransfer": 1,
+              "Components": [
+                {
+                  "__type": "Sandbox.ScreenPanel",
+                  "__guid": "e4933999-61bd-47cb-a950-ebbc7dfb4414",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "AutoScreenScale": true,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Opacity": 1,
+                  "Scale": 1,
+                  "ScaleStrategy": "ConsistentHeight",
+                  "TargetCamera": null,
+                  "ZIndex": 100
+                },
+                {
+                  "__type": "Sandbox.Score",
+                  "__guid": "39d320ef-f2e3-40d4-a4e4-0c3c62af392b",
+                  "__enabled": true,
+                  "Flags": 0,
+                  "EnemyScore": 0,
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "PlayerScore": 0
+                }
+              ],
+              "Children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
       "__guid": "17df1b06-0957-43c4-b064-e11dcac3b982",
       "__version": 2,
       "Flags": 0,
@@ -365,6 +485,19 @@
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
+            },
+            {
+              "__type": "Goal",
+              "__guid": "4cbdabca-a20d-4a35-9a26-fdac178677f2",
+              "__enabled": true,
+              "Flags": 0,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Side": 0
             }
           ],
           "Children": []
@@ -410,6 +543,19 @@
               "Static": false,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
+            },
+            {
+              "__type": "Goal",
+              "__guid": "0653c2ec-23a9-47b9-a91b-f585b12b5bbc",
+              "__enabled": true,
+              "Flags": 0,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Side": 1
             }
           ],
           "Children": []
@@ -424,7 +570,7 @@
       "Position": "0,0,0",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
-      "Tags": "",
+      "Tags": "ball",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkFlags": 0,
@@ -465,97 +611,6 @@
           "OverrideMassCenter": false,
           "RigidbodyFlags": 0,
           "StartAsleep": false
-        },
-        {
-          "__type": "Sandbox.TrailRenderer",
-          "__guid": "4897bc6e-c696-4911-9dfc-682ab50fd56e",
-          "__enabled": true,
-          "Flags": 0,
-          "BlendMode": "Normal",
-          "CastShadows": false,
-          "Color": {
-            "blend": "Linear",
-            "color": [
-              {
-                "t": 0,
-                "c": "1,0,0,1"
-              },
-              {
-                "t": 0.17,
-                "c": "1,0.49804,0,1"
-              },
-              {
-                "t": 0.33,
-                "c": "1,1,0,1"
-              },
-              {
-                "t": 0.5,
-                "c": "0,1,0,1"
-              },
-              {
-                "t": 0.67,
-                "c": "0,0,1,1"
-              },
-              {
-                "t": 0.83,
-                "c": "0.29412,0,0.5098,1"
-              },
-              {
-                "t": 1,
-                "c": "0.5451,0,1,1"
-              }
-            ],
-            "alpha": [
-              {
-                "t": 0,
-                "a": 1
-              },
-              {
-                "t": 1,
-                "a": 1
-              }
-            ]
-          },
-          "Emitting": true,
-          "Face": "Camera",
-          "LifeTime": 2,
-          "MaxPoints": 64,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Opaque": true,
-          "PointDistance": 8,
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "Texturing": {
-            "Texture": null,
-            "Material": null,
-            "WorldSpace": true,
-            "UnitsPerTexture": 10,
-            "Scale": 1,
-            "Offset": 0,
-            "Scroll": 0,
-            "FilterMode": "Anisotropic",
-            "TextureAddressMode": "Wrap",
-            "Clamp": false
-          },
-          "Width": [
-            {
-              "x": 0.5,
-              "y": 5,
-              "in": 0,
-              "out": 0,
-              "mode": "Mirrored"
-            }
-          ],
-          "Wireframe": false
         },
         {
           "__type": "Sandbox.SphereCollider",
@@ -612,7 +667,7 @@
           "Name": "Body",
           "Position": "8.349319,0,0",
           "Rotation": "0,0,0,1",
-          "Scale": "3,3,3",
+          "Scale": "0.5,0.5,0.5",
           "Tags": "",
           "Enabled": true,
           "NetworkMode": 2,
@@ -632,7 +687,7 @@
               "MaterialGroup": null,
               "MaterialOverride": null,
               "Materials": null,
-              "Model": "models/extradarts/feltball.vmdl",
+              "Model": "models/dev/sphere.vmdl",
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
               "OnComponentEnabled": null,
@@ -796,7 +851,7 @@
                 "AfterUILayer": false
               },
               "RenderType": "On",
-              "Tint": "0.9814,0,0,1"
+              "Tint": "1,1,1,1"
             }
           ],
           "Children": []
@@ -942,7 +997,7 @@
                 "AfterUILayer": false
               },
               "RenderType": "Off",
-              "Tint": "0.31667,0,1,1"
+              "Tint": "1,1,1,1"
             }
           ],
           "Children": []
@@ -973,7 +1028,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "eb64d199-ac90-4164-be19-6626fb9e81cc"
+          "$blob": "eb411de8-d893-4bc1-96f7-ba04f8ee1846"
         }
       }
     }
@@ -981,8 +1036,6 @@
   "ResourceVersion": 3,
   "Title": "sologame",
   "Description": null,
-  "__references": [
-    "dingusgames.feltball#52798"
-  ],
+  "__references": [],
   "__version": 3
 }

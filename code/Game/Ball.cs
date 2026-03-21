@@ -6,11 +6,26 @@ public sealed class Ball : Component, Component.ICollisionListener
 	[Property] public SoundEvent sfx;
 	[Property] public float speed;
 	public Vector2 direction;
+    private float _timer;
+    private bool _shouldRespawn = false;
     protected override void OnStart()
     {
 		int num = Game.Random.Int(0, 2) == 1 ? 1 : -1;
 		SetDirection(num);
 		rb.Velocity = direction * speed;
+    }
+    protected override void OnFixedUpdate()
+    {
+        if (_shouldRespawn)
+        {
+            _timer -= Time.Delta;
+            if (_timer <= 0)
+            {
+                _shouldRespawn = false;
+                WorldPosition = 0;
+                rb.Velocity = direction * speed;
+            }
+        }
     }
 	public void SetDirection(int dir)
 	{
@@ -38,4 +53,26 @@ public sealed class Ball : Component, Component.ICollisionListener
         rb.Velocity = direction * speed;
 		speed++;
 	}
+    private void Respawn(int side)
+    {
+        if (side == 0)
+        {
+            SetDirection(-1);
+        }
+        if (side == 1)
+        {
+            SetDirection(1);
+        }
+        _timer = 0.7f;
+        _shouldRespawn = true;
+        speed = 180;
+    }
+    protected override void OnEnabled()
+    {
+        EventManager.GoalEvent += Respawn;
+    }
+    protected override void OnDisabled()
+    {
+        EventManager.GoalEvent -= Respawn;
+    }
 }

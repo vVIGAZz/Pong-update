@@ -29,3 +29,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/S&box Project/Pong-update/code/Properties/UI/MainMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = UHJvcGVydGllc1xVSVxNYWluTWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/S&box Project/Pong-update/code/UI/Score Panel/Score.razor]
+build_metadata.AdditionalFiles.TargetPath = VUlcU2NvcmUgUGFuZWxcU2NvcmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,38 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="title">@PlayerScore</div>
+    <div class="title">@EnemyScore</div>
+
+</root>
+
+@code
+{
+    [Property] public int PlayerScore;
+    [Property] public int EnemyScore;
+    protected override int BuildHash() => System.HashCode.Combine( PlayerScore, EnemyScore );
+
+    private void AddScore(int goal)
+    {
+        if (goal == 0)
+        {
+            EnemyScore++;
+        }
+        if (goal == 1)
+        {
+            PlayerScore++;
+        }
+    }
+    protected override void OnEnabled()
+    {
+        EventManager.GoalEvent += AddScore;
+    }
+    protected override void OnDisabled()
+    {
+        EventManager.GoalEvent -= AddScore;
+    }
+
+}
