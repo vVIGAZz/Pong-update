@@ -2,6 +2,7 @@ using Sandbox;
 
 public sealed class Ball : Component, Component.ICollisionListener
 {
+    [Property] public GameObject body;
 	[Property] public Rigidbody rb;
 	[Property] public SoundEvent sfx;
 	[Property] public float speed;
@@ -23,6 +24,7 @@ public sealed class Ball : Component, Component.ICollisionListener
             {
                 _shouldRespawn = false;
                 WorldPosition = 0;
+                body.Enabled = true;
                 rb.Velocity = direction * speed;
             }
         }
@@ -55,6 +57,7 @@ public sealed class Ball : Component, Component.ICollisionListener
 	}
     private void Respawn(int side)
     {
+        body.Enabled = false;
         if (side == 0)
         {
             SetDirection(-1);

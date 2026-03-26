@@ -1,0 +1,33 @@
+Menu {
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	align-items: center;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: Poppins;
+	pointer-events: all;
+
+	.menu {
+		flex-direction: column;
+		color: #fff;
+	}
+
+	.game-name {
+		font-size: 8em;
+		letter-spacing: 30px;
+		margin-bottom: 0.5em;
+	}
+
+	.navigation {
+		flex-direction: column;
+		color: #fff;
+	}
+
+	.button {
+		margin: 0.2em 0;
+	}
+	.button:hover{
+		color:#dbdbdb;
+	}
+}

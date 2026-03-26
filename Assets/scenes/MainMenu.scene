@@ -2,45 +2,95 @@
   "__guid": "241dfb6f-0705-4a85-8c74-9964f0b890f4",
   "GameObjects": [
     {
-      "__guid": "7f2f6c6f-3695-41d0-81a8-3b0e8d3d3161",
+      "__guid": "cfdf08c9-d30a-436e-a7a6-fcc950a5685b",
+      "__version": 2,
       "Flags": 0,
-      "Name": "Screen",
+      "Name": "Scene Information",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
-          "__type": "Sandbox.ScreenPanel",
-          "__guid": "0227744d-5c56-4f00-9fcd-3f4b89abfa8f",
-          "AutoScreenScale": true,
-          "Opacity": 1,
-          "Scale": 1,
-          "ScaleStrategy": "ConsistentHeight",
-          "ZIndex": 100
-        },
-        {
-          "__type": "Sandbox.MainMenu",
-          "__guid": "63e25666-434a-4448-979f-f061595bd426",
-          "soloGame": "scenes/sologame.scene"
+          "__type": "Sandbox.SceneInformation",
+          "__guid": "1bcbbff3-4991-466d-bfc9-858a75a7d074",
+          "__enabled": true,
+          "Flags": 0,
+          "Author": null,
+          "Changes": null,
+          "Description": "",
+          "Group": null,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "SceneTags": "",
+          "Title": "mainmenu",
+          "Version": null
         }
-      ]
+      ],
+      "Children": []
     },
     {
       "__guid": "11401573-faf5-46b6-b9c2-cee1e5b5b3dc",
+      "__version": 2,
       "Flags": 0,
       "Name": "Music",
       "Position": "-59.60089,-6.462434,-286.5276",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
       "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
       "Components": [
         {
           "__type": "Sandbox.SoundBoxComponent",
           "__guid": "f04b0136-8f1b-4687-8a15-e0eeac8b9414",
+          "__enabled": true,
+          "Flags": 0,
+          "Distance": 512,
           "DistanceAttenuation": false,
           "DistanceAttenuationOverride": true,
+          "Falloff": [
+            {
+              "x": 0,
+              "y": 1,
+              "in": 3.1415927,
+              "out": -3.1415927,
+              "mode": "Mirrored"
+            },
+            {
+              "x": 1,
+              "y": 0,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
           "Force2d": false,
           "MaxRepeatTime": 1,
           "MinRepeatTime": 1,
           "Occlusion": true,
           "OcclusionOverride": false,
           "OcclusionRadius": 32,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
           "Pitch": 1,
           "PlayOnStart": true,
           "ReflectionOverride": false,
@@ -56,18 +106,157 @@
           },
           "Volume": 1
         }
-      ]
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "4783541b-f99c-4ff1-acd9-3199a355a3da",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Menu",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "811afd81-b4d9-4ae0-96ba-6a59c462a7b9",
+          "__enabled": true,
+          "Flags": 0,
+          "AutoScreenScale": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Opacity": 1,
+          "Scale": 1,
+          "ScaleStrategy": "ConsistentHeight",
+          "TargetCamera": null,
+          "ZIndex": 100
+        },
+        {
+          "__type": "Sandbox.Menu",
+          "__guid": "6d3c761b-601f-4d88-9f6d-6ffbf63c9bef",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "01fb6538-397c-45dc-bd4d-7fbd84f56f5a",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Camera",
+      "Position": "89.99498,89.995,-127.2722",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "maincamera",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "085285f5-9ae4-469a-bcdd-a22c4af24a2c",
+          "__enabled": true,
+          "Flags": 0,
+          "BackgroundColor": "0.33333,0.46275,0.52157,1",
+          "ClearFlags": "All",
+          "EnablePostProcessing": true,
+          "FieldOfView": 60,
+          "FovAxis": "Horizontal",
+          "IsMainCamera": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "PostProcessAnchor": null,
+          "Priority": 1,
+          "RenderExcludeTags": "",
+          "RenderTags": "",
+          "RenderTexture": null,
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 10
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "ccbc25df-fdc5-4b2a-94a6-e7516bf208d9",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Game Manager",
+      "Position": "0,0,0",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "EventManager",
+          "__guid": "25aa969e-dae5-4ddf-bcfa-276fe8695d96",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        },
+        {
+          "__type": "GameManager",
+          "__guid": "fe98a40e-0776-4cb5-92ee-bdb31192d624",
+          "__enabled": true,
+          "Flags": 0,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ],
+      "Children": []
     }
   ],
   "SceneProperties": {
-    "FixedUpdateFrequency": 50,
-    "MaxFixedUpdates": 5,
-    "NetworkFrequency": 30,
     "NetworkInterpolation": true,
-    "PhysicsSubSteps": 1,
-    "ThreadedAnimation": true,
     "TimeScale": 1,
-    "UseFixedUpdate": true,
+    "WantsSystemScene": true,
+    "Metadata": {
+      "Title": "mainmenu"
+    },
     "NavMesh": {
       "Enabled": false,
       "IncludeStaticBodies": true,
@@ -78,14 +267,22 @@
       "AgentStepSize": 18,
       "AgentMaxSlope": 40,
       "ExcludedBodies": "",
-      "IncludedBodies": ""
+      "IncludedBodies": "",
+      "CustomBounds": false
+    },
+    "GameObjectSystems": {
+      "Sandbox.Clutter.ClutterGridSystem": {
+        "Storage": {
+          "$blob": "be417f98-e1f9-4d73-8a6e-4d5d528dfb2c"
+        }
+      }
     }
   },
+  "ResourceVersion": 3,
   "Title": "mainmenu",
-  "Description": "",
-  "ResourceVersion": 1,
+  "Description": null,
   "__references": [
     "curtainstudio.menu1#74189"
   ],
-  "__version": 1
+  "__version": 3
 }

@@ -124,37 +124,6 @@
       "Children": []
     },
     {
-      "__guid": "f7df6573-c524-4042-ad6e-87e1db047eea",
-      "__version": 2,
-      "Flags": 0,
-      "Name": "Game Manager",
-      "Position": "0,0,0",
-      "Rotation": "0,0,0,1",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkFlags": 0,
-      "NetworkOrphaned": 0,
-      "NetworkTransmit": true,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "EventManager",
-          "__guid": "7c3f8cdf-1d23-4dcd-b347-c01a1ed4e4f7",
-          "__enabled": true,
-          "Flags": 0,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "dfcfd0af-b32c-4f64-8b2c-84a76a11c9c2",
       "__version": 2,
       "Flags": 0,
@@ -643,6 +612,10 @@
           "__guid": "660d31cf-edb1-40f4-89e9-30a776b233fe",
           "__enabled": true,
           "Flags": 0,
+          "body": {
+            "_type": "gameobject",
+            "go": "23f96fe4-e5c0-4dea-98b9-843cb485450e"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -713,7 +686,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Enemy",
-      "Position": "350,0,0",
+      "Position": "300,0,0",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "paddle",
@@ -863,7 +836,7 @@
       "__version": 2,
       "Flags": 0,
       "Name": "Player",
-      "Position": "-350,0,0",
+      "Position": "-300,0,0",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "paddle",
@@ -1028,7 +1001,7 @@
     "GameObjectSystems": {
       "Sandbox.Clutter.ClutterGridSystem": {
         "Storage": {
-          "$blob": "eb411de8-d893-4bc1-96f7-ba04f8ee1846"
+          "$blob": "ade645ad-8e05-4866-9e2a-d09325a8303d"
         }
       }
     }

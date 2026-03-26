@@ -1,0 +1,35 @@
+@using Sandbox;
+@using Sandbox.Engine;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="menu">
+		<div class="game-name">PONG</div>
+		<div class="navigation">
+			<div class="button start" onclick="@Start">Start</div>
+			<div class="button settings" onclick="@Settings">Settings</div>
+			<div class="button exit" onclick="@Exit">Exit</div>
+		</div>
+	</div>
+</root>
+
+@code
+{
+	
+	private void Start()
+	{
+		Scene.LoadFromFile("scenes/sologame.scene");
+	}
+	private void Settings()
+	{
+		Game.Overlay.ShowSettingsModal();
+	}
+
+	private void Exit()
+	{
+		Game.Close();
+	}
+	protected override int BuildHash() => System.HashCode.Combine( Settings);
+}

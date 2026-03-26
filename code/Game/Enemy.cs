@@ -9,9 +9,9 @@ public sealed class Enemy : Component
     protected override void OnFixedUpdate()
 	{
 
-        if (ball.WorldPosition.y < WorldPosition.y) wishVelocity -= 2;
-        if (ball. WorldPosition.y > WorldPosition.y) wishVelocity += 2;
+        if (ball.WorldPosition.y < WorldPosition.y) wishVelocity -= 1;
+        if (ball. WorldPosition.y > WorldPosition.y) wishVelocity += 1;
         //else wishVelocity = 0;
-        rb.SmoothMove(wishVelocity, 0.7f, Time.Delta);
+        rb.SmoothMove(wishVelocity, 0.2f, Time.Delta / speed);
 	}
 }

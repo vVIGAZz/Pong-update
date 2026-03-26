@@ -10,10 +10,20 @@ Score
 	font-weight: bold;
 	border-radius: 20px;
 
-	.title
+	.row
 	{
 		font-size: 25px;
 		font-family: Poppins;
 		color: #fff;
+	}
+	.player-score{
+		position: absolute;
+		top: 150px;
+		left:500px;
+	}
+	.enemy-score{
+		position: absolute;
+		top: 150px;
+		right:500px;
 	}
 }

@@ -1,42 +1,42 @@
 {
   "LocalAssetBrowser.History": {
-    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\\\\Score Panel\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022]",
-    "Timeout": 1776688312,
+    "Value": "[\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\\\\Score Panel\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Data\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\\\\Main Menu\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\\\\scenes\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Event\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Data\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\\\\Main Menu\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\\\\scenes\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\\\\ui\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\\\\sprites\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Data\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Event\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\UI\\\\Main Menu\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\\\\scenes\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Event\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\code\\\\Game\u0022,\u0022C:\\\\S\\u0026box Project\\\\Pong-update\\\\Assets\u0022]",
+    "Timeout": 1777119795,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.HistoryIdx": {
-    "Value": "8",
-    "Timeout": 1776688312,
+    "Value": "36",
+    "Timeout": 1777119795,
     "DeleteAt": 0
   },
   "Window.SboxSceneEditor.Dock": {
-    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAACfYAAAUpAAAAAAAAAAAAAAn2AAAFKQAAAAAAAAAACgAAAAAAAAAAAAAACfYAAAUp\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/sologame.scene\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:1,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022LibraryManagerDock\u0022,\u0022name\u0022:\u0022Library Manager\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAADpQAAAhYA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAGuwAAAdsA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABmwAACjQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
-    "Timeout": 1776689139,
+    "Value": "{\u0022floatingWindows\u0022:[],\u0022mainWrapper\u0022:{\u0022geometry\u0022:\u0022AdnQywADAAAAAAAAAAAAAAAACfYAAAUpAAAAAAAAAAAAAAn2AAAFKQAAAAAAAAAACgAAAAAAAAAAAAAACfYAAAUp\u0022,\u0022splitter\u0022:{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneTreeWidget\u0022,\u0022name\u0022:\u0022Hierarchy\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PanelInspectorWidget\u0022,\u0022name\u0022:\u0022UI Panels\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022items\u0022:[{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/sologame.scene\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022SceneDock\u0022,\u0022name\u0022:\u0022SceneDock:scenes/mainmenu.scene\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MainAssetBrowser\u0022,\u0022name\u0022:\u0022Asset Browser\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022ConsoleWidget\u0022,\u0022name\u0022:\u0022Console\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022MixerDock\u0022,\u0022name\u0022:\u0022Mixer\u0022},{\u0022data\u0022:null,\u0022managedType\u0022:\u0022LibraryManagerDock\u0022,\u0022name\u0022:\u0022Library Manager\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAADpQAAAhYA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022},{\u0022items\u0022:[{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022Inspector\u0022,\u0022name\u0022:\u0022Inspector\u0022}],\u0022type\u0022:\u0022area\u0022},{\u0022currentIndex\u0022:0,\u0022objects\u0022:[{\u0022data\u0022:null,\u0022managedType\u0022:\u0022PerformanceDock\u0022,\u0022name\u0022:\u0022Performance\u0022}],\u0022type\u0022:\u0022area\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAEuQAAAVEA/////wEAAAACAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAAGuwAAAdsA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}],\u0022state\u0022:\u0022AAAA/wAAAAEAAAACAAABmwAACjQA/////wEAAAABAA==\u0022,\u0022type\u0022:\u0022splitter\u0022}},\u0022toolWindowManagerStateFormat\u0022:1}",
+    "Timeout": 1777117657,
     "DeleteAt": 0
   },
   "SceneView.Viewport0.Settings": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-5.607473,-170.8701,571.579\u0022,\u0022CameraRotation\u0022:\u0022-0.4097835,0.3986093,0.5881305,0.5720931\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1776689138,
+    "Value": "{\u0022CameraPosition\u0022:\u00222.946671,0,500\u0022,\u0022CameraRotation\u0022:\u0022-0.5,0.5,0.5,0.5\u0022,\u0022View\u0022:0,\u0022RenderMode\u0022:0,\u0022WireframeMode\u0022:false,\u0022EnablePostProcessing\u0022:true,\u0022EnablePrefabLighting\u0022:true,\u0022ShowSkyIn2D\u0022:true,\u0022ShowGrid\u0022:true,\u0022GridOpacity\u0022:0.2,\u0022GridAxis\u0022:0,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777119868,
     "DeleteAt": 0
   },
   "scenes/sologame.scene.Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u0022-5.607473,-170.8701,571.579\u0022,\u0022CameraRotation\u0022:\u0022-0.4097835,0.3986093,0.5881305,0.5720931\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1776689138,
+    "Value": "{\u0022CameraPosition\u0022:\u00222.946671,0,500\u0022,\u0022CameraRotation\u0022:\u0022-0.5,0.5,0.5,0.5\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777119833,
     "DeleteAt": 0
   },
   ".Viewport0": {
-    "Value": "{\u0022CameraPosition\u0022:\u00222.946671,0,596\u0022,\u0022CameraRotation\u0022:\u0022-0.5,0.5,0.5,0.5\u0022,\u0022CameraOrthoHeight\u0022:1000}",
-    "Timeout": 1776531556,
+    "Value": "{\u0022CameraPosition\u0022:\u0022-5.607473,-170.8701,571.579\u0022,\u0022CameraRotation\u0022:\u0022-0.4097835,0.3986093,0.5881305,0.5720931\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777119746,
     "DeleteAt": 0
   },
   "SceneView.Layout": {
     "Value": "{\u0022Layout\u0022:0,\u0022SplitterState\u0022:[]}",
-    "Timeout": 1776689139,
+    "Timeout": 1777119750,
     "DeleteAt": 0
   },
   "expand.1d990959-8250-4737-9618-bd5963c1a922.Rigidbody": {
     "Value": "false",
-    "Timeout": 1776689137,
+    "Timeout": 1777119747,
     "DeleteAt": 0
   },
   "expand.86a2a71d-7147-47ed-9b45-23d9a7de6fdb.MissingComponent": {
@@ -76,7 +76,7 @@
   },
   "expand.4537df50-9c66-43af-b0cf-5c968c44d84f.Rigidbody": {
     "Value": "false",
-    "Timeout": 1776687523,
+    "Timeout": 1777119557,
     "DeleteAt": 0
   },
   "expand.1d990959-8250-4737-9618-bd5963c1a922.TrailRenderer": {
@@ -86,12 +86,12 @@
   },
   "gizmo.settings": {
     "Value": "{\u0022EditMode\u0022:\u0022position\u0022,\u0022Selection\u0022:true,\u0022ViewMode\u0022:\u00223d\u0022,\u0022GizmosEnabled\u0022:true,\u0022GizmoScale\u0022:1,\u0022GridSpacing\u0022:32,\u0022SnapToGrid\u0022:false,\u0022SnapToAngles\u0022:true,\u0022AngleSpacing\u0022:15,\u0022GlobalSpace\u0022:false,\u0022DebugActionGraphs\u0022:false,\u0022DisabledGizmos\u0022:{}}",
-    "Timeout": 1776689139,
+    "Timeout": 1777117654,
     "DeleteAt": 0
   },
   "expand.4537df50-9c66-43af-b0cf-5c968c44d84f.BoxCollider": {
     "Value": "false",
-    "Timeout": 1776687523,
+    "Timeout": 1777119557,
     "DeleteAt": 0
   },
   "expand.663a7612-44b8-440e-b3a3-d1543dcae923.BoxCollider": {
@@ -101,7 +101,7 @@
   },
   "expand.1d990959-8250-4737-9618-bd5963c1a922.SphereCollider": {
     "Value": "false",
-    "Timeout": 1776689137,
+    "Timeout": 1777119747,
     "DeleteAt": 0
   },
   "LocalAssetBrowser.Model.ViewMode": {
@@ -126,12 +126,37 @@
   },
   "expand.35b94876-959c-4e00-b95b-dd78c95eed57.ScreenPanel": {
     "Value": "false",
-    "Timeout": 1776687742,
+    "Timeout": 1777053743,
     "DeleteAt": 0
   },
   "expand.be104f23-f589-4d84-aeec-935c470faf6a.BoxCollider": {
     "Value": "false",
     "Timeout": 1776688699,
+    "DeleteAt": 0
+  },
+  "scenes/mainmenu.scene.Viewport0": {
+    "Value": "{\u0022CameraPosition\u0022:\u00222.946671,0,500\u0022,\u0022CameraRotation\u0022:\u0022-0.5,0.5,0.5,0.5\u0022,\u0022CameraOrthoHeight\u0022:1000}",
+    "Timeout": 1777119868,
+    "DeleteAt": 0
+  },
+  "expand.11401573-faf5-46b6-b9c2-cee1e5b5b3dc.SoundBoxComponent": {
+    "Value": "false",
+    "Timeout": 1777053686,
+    "DeleteAt": 0
+  },
+  "expand.f7df6573-c524-4042-ad6e-87e1db047eea.EventManager": {
+    "Value": "false",
+    "Timeout": 1777117994,
+    "DeleteAt": 0
+  },
+  "expand.ccbc25df-fdc5-4b2a-94a6-e7516bf208d9.EventManager": {
+    "Value": "false",
+    "Timeout": 1777119865,
+    "DeleteAt": 0
+  },
+  "EditorDisplayMode": {
+    "Value": "\u00221080p\u0022",
+    "Timeout": 1777119833,
     "DeleteAt": 0
   }
 }
